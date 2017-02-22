@@ -1,4 +1,10 @@
-<gbXML xsi:schemaLocation="http://www.gbxml.org/schema http://www.gbxml.org/schema/0-37/GreenBuildingXML.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.gbxml.org/schema" temperatureUnit="C" lengthUnit="Meters" areaUnit="SquareMeters" version="0.37" useSIUnitsForResults="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" volumeUnit="CubicMeters">
+<gbXML xsi:schemaLocation="http://www.gbxml.org/schema http://www.gbxml.org/schema/0-37/GreenBuildingXML.xsd" 
+xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+xmlns="http://www.gbxml.org/schema" 
+temperatureUnit="C" lengthUnit="Meters" areaUnit="SquareMeters" version="0.37" 
+useSIUnitsForResults="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+volumeUnit="CubicMeters">
  <Campus id="Facility">
   <Location>
    <Name>name_value_vigo</Name>
