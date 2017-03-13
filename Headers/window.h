@@ -2,21 +2,27 @@
 //      Class to define space for gbXML
 //      Applied Geotechnologies Uvigo
 //      Iván Otero (iotero@uvigo.es)
-//      22/02/2017
+//      19/01/2017
 //****************************************************************************
-#ifndef STORESPACES_H
-#define STORESPACES_H
-#include "storeplanes.h"
+#ifndef WINDOW_H
+#define WINDOW_H
+#include "cartesianpoint.h"
 #include <vector>
 
-class Storespaces
+
+class Window
 {
 
 public:
 
-    std::string BuildingStoreyName;
+    std::string opening_id;
+    std::string opening_type;
 
-    std::vector<Storeplanes> spaces;
+    double azimuth;
+    double tilt;
+    double width;
+    double height;
+
 
 };
-#endif // STORESPACES_H
+#endif // WINDOW_H

@@ -1,7 +1,7 @@
 //****************************************************************************
 //      Class to define space for gbXML
 //      Applied Geotechnologies Uvigo
-//      Iván Otero (iotero@uvigo.es) || (ivanoterouvigo@gmail.com)
+//      Iván Otero (iotero@uvigo.es)
 //      19/01/2017
 //****************************************************************************
 #ifndef OPENING_H

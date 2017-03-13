@@ -1,7 +1,7 @@
 //****************************************************************************
 //      Class to define space for gbXML
 //      Applied Geotechnologies Uvigo
-//      Iván Otero (iotero@uvigo.es) || (ivanoterouvigo@gmail.com)
+//      Iván Otero (iotero@uvigo.es)
 //      16/02/2017
 //****************************************************************************
 #ifndef STORE_PLANES_H
@@ -14,7 +14,8 @@ class Storeplanes
 
 public:
 
-    std::string name;
+    std::string id;
+    std::string buildingStoreyIdRef;
 
     std::vector<Plane3d> planes;
 

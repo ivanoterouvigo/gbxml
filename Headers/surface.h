@@ -1,7 +1,7 @@
 //****************************************************************************
 //      Class to define space for gbXML
 //      Applied Geotechnologies Uvigo
-//      Iván Otero (iotero@uvigo.es) || (ivanoterouvigo@gmail.com)
+//      Iván Otero (iotero@uvigo.es)
 //      19/01/2017
 //****************************************************************************
 #ifndef SURFACE_H
@@ -22,8 +22,6 @@ public:
     std::string surface_id;
     std::string surface_type;
     std::string constructionIdRef;
-    // std::string space_id_ref;
-    // TODO IVAN: set a list of spaceID
 
     double azimuth;
     double tilt;
