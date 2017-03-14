@@ -1,5 +1,6 @@
 # gbxml
-Generator of gbxml from ...
+
+Create gbxml from planes and one point in this planes
 
 
 Gbxml generator
